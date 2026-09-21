@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi haters</title>
+    <title>Taylor Swift</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="card">
     <?php
-    echo "<h1> Hi haters </h1>";
+    echo "<h1> Taylor Swift </h1>";
 
     $nome = $_POST['nome'] ?? '';
     $idade = $_POST['idade'] ?? null;
