@@ -8,7 +8,7 @@
 <body>
     <section id="inicio" class="inicio">
 
-        <div ckass="inicio-conteudo">
+        <div class="inicio-conteudo">
 
             <p class="saudacao">Olá! eu sou Nathaly</p>
 
