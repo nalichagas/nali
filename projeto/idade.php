@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taylor Swift</title>
+    <title>Taylor Swif</title>
     <link rel="stylesheet" href="/css/idade.css">
 </head>
 <body>
