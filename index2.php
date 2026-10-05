@@ -10,14 +10,14 @@
 
         <div ckass="inicio-conteudo">
 
-            <p class="saudacao">Olá! eu sou hellvig</p>
+            <p class="saudacao">Olá! eu sou Nathaly</p>
 
-            <h1>Hellvig</h1>
+            <h1>Nathaly 𝜗ৎ</h1>
 
             <h2>Desenvolvedor em formação</h2>
 
             <p>
-                meu nome é hellvig tenho 18 anos, trabalho na maior empresa de onibus urbano de curitiba e estou cursando tecnico em desenvolvimento de sistemas,
+                meu nome é Nathaly tenho 19 anos e estou cursando tecnico em desenvolvimento de sistemas.
             </p>
             <a href="#projetos" class="botao">
                 Ver meus projetos
@@ -63,7 +63,7 @@
                 <span>PHP</span>
              </div>
              <a href="projetos/idade.php" class="link-projeto">
-                Ver projeto (☞ﾟヮﾟ)☞
+                Ver projeto 𝜗ৎ
              </a>
              
         </div>
@@ -83,7 +83,7 @@
                 <span>PHP</span>
              </div>
              <a href="projetos/idade.php" class="link-projeto">
-                Ver projeto (☞ﾟヮﾟ)☞
+                Ver projeto 𝜗ৎ
              </a>
              
         </div>
@@ -103,7 +103,7 @@
                 <span>PHP</span>
              </div>
              <a href="projetos/idade.php" class="link-projeto">
-                Ver projeto (☞ﾟヮﾟ)☞
+                Ver projeto 𝜗ৎ
              </a>
              
         </div>
@@ -123,7 +123,7 @@
                 <span>PHP</span>
              </div>
              <a href="projetos/idade.php" class="link-projeto">
-                Ver projeto (☞ﾟヮﾟ)☞
+                Ver projeto 𝜗ৎ
              </a>
              
         </div>
@@ -136,18 +136,18 @@
         <div class="contato-container">
             <div class="contato-item">
                 <h3>Whatsapp</h3>
-                <p>41 9 9999-9999</p>
+                <p>41 9999-9999</p>
             </div>
             <div class="contato-item">
                 <h3>GitHub</h3>
-                <p>github.com/hellvig</p>
+                <p>github.com/nalichagas</p>
             </div>
         </div>
     </section>
 </main>
 <footer>
     <p>
-        Desenvolvido por <a href="https://nathaly315.devlook.xyz">Nathaly Colin</a> 𝜗ৎ 2026
+        Desenvolvido por <a href="https://nathaly315.devlook.xyz">Nathaly Chagas</a> 𝜗ৎ 2026
     </p>
 </footer>
     
