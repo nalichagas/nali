@@ -10,9 +10,9 @@
 
     //4. CRIAR UM ALUNO
     $novoAluno = [
-    "nome" => "Ana Luiza",
-    "idade" => "17",
-    "curso" => "Desenvolvimento de Sistemas"
+    "nome" => $_POST["nome"],
+    "idade" => $_POST["idade"],
+    "curso" => $_POST["curso"]
     ];
     
     //5. ADICIONAR O ALUNO NO ARRAY
@@ -37,6 +37,16 @@
     <title>Document</title>
 </head>
 <body>
+    <form method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nome">   
+        <label>Idade:</label>
+        <input type="number" name="idade"> 
+        <label>Curso:</label>
+        <input type="text" name="curso"> 
+        <button type="submit">Cadastrar</button>
+    </form>
+
     
 </body>
 </html>

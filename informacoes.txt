@@ -16,39 +16,29 @@ ARRAY ASSOCIATIVO
 Exemplo:
 [
     { 
-        "nome": "Ana",
-        "idade": 17,
+        "nome": "Nali",
+        "idade": 19,
         "curso": "Desenvolvimento de Sistemas"
     },
     {
-        "nome": "Luiza",
-        "idade": 18,
-        "curso": "Engenharia de Software"
+        "nome": "Leticia",
+        "idade": 36,
+        "curso": "Artes Cênicas"
     },
     {
-        "nome": "Lucas",
-        "idade": 20,
-        "curso": "Administração"
-    },
-    {
-        "nome": "Maria",
+        "nome": "Chay",
         "idade": 34,
-        "curso": "Gastronomia"
-    },
-    {
-        "nome": "Marcos",
-        "idade": 45,
-        "curso": "Técnico em Mecatrônica"
+        "curso": "Artes Cênicas"
     }
 ]
 
 ======================================================================
           
-                            CRUD
-C = CREATE = CRIAR
-R = READ = LER
-U = UPDATE = ATUALIZAR
-D = DELETE = DELETAR
+        CRUD
+C = CREATE = criar
+R = READ = ler
+U = UPDATE = atualizar
+D = DELETE = deletar
 
 ====================================================================
 JSON_PRETTY_PRINT  = formatar
