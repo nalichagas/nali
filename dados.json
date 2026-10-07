@@ -1,1 +1,17 @@
-[]
+[
+    { 
+        "nome": "Nali",
+        "idade": 19,
+        "curso": "Desenvolvimento de Sistemas"
+    },
+    {
+        "nome": "Leticia",
+        "idade": 36,
+        "curso": "Artes Cênicas"
+    },
+    {
+        "nome": "Chay",
+        "idade": 34,
+        "curso": "Artes Cênicas"
+    }
+]
