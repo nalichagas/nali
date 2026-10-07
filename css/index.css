@@ -1,0 +1,332 @@
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    line-height: 1.6;
+}
+
+
+/* MENU */
+
+header {
+    background-color: #111827;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu a {
+    color: #dddddd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #60a5fa;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+
+    background-color: #111827;
+    color: white;
+}
+
+.inicio-conteudo {
+    width: 1100px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.saudacao {
+    color: #60a5fa;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.inicio h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.inicio h2 {
+    font-size: 30px;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+
+.inicio-conteudo > p {
+    max-width: 600px;
+}
+
+.botao {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 12px 25px;
+
+    background-color: #2563eb;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+/* SEÇÕES */
+
+.secao {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+.titulo-secao {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitulo-secao {
+    text-align: center;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+
+/* CARDS DAS ATIVIDADES */
+
+.projetos-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.projeto-card {
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+
+    transition: 0.3s;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.projeto-numero {
+    font-size: 35px;
+    font-weight: bold;
+
+    color: #2563eb;
+
+    margin-bottom: 15px;
+}
+
+.projeto-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.projeto-card p {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+
+/* TECNOLOGIAS */
+
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+}
+
+.tecnologias span {
+    background-color: #dbeafe;
+    color: #1e40af;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* LINK DOS PROJETOS */
+
+.link-projeto {
+    color: #2563eb;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.link-projeto:hover {
+    text-decoration: underline;
+}
+
+
+/* SOBRE */
+
+.secao-destaque {
+    max-width: 100%;
+
+    background-color: #e5e7eb;
+}
+
+.secao-destaque > * {
+    max-width: 1100px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+
+    margin-top: 40px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+
+    min-width: 200px;
+
+    border-radius: 50%;
+
+    background-color: #2563eb;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.sobre-texto h3 {
+    font-size: 25px;
+
+    margin-bottom: 15px;
+}
+
+.sobre-texto p {
+    margin-bottom: 15px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #111827;
+    color: #cccccc;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 800px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .inicio {
+        min-height: 70vh;
+    }
+
+    .inicio h1 {
+        font-size: 40px;
+    }
+
+    .inicio h2 {
+        font-size: 23px;
+    }
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
