@@ -1,8 +1,8 @@
 <?php
 
     $host = "localhost";
-    $banco = "ana315";
-    $usuario ="ana315";
+    $banco = "nathaly315";
+    $usuario ="nathaly315";
     $senha = "315!@#";
 
     // PDO= PHP Data Objects (uma ferramenta do php para conversar com o bando de dados)

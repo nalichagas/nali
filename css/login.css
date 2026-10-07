@@ -6,7 +6,7 @@
 }
 
 body {
-    background: radial-gradient(circle at center, #1e0536 0%, #0a0112 100%);
+    background: radial-gradient(circle at center, #3b0714 0%, #0a0104 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +18,14 @@ body {
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-    border: 1px solid rgba(192, 132, 252, 0.2);
-    border-top: 4px solid #a855f7; 
+    border: 1px solid rgba(255, 69, 103, 0.2);
+    border-top: 4px solid #e11d48;
     border-radius: 20px;
     padding: 35px 30px;
     width: 100%;
     max-width: 400px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 
-                0 0 30px rgba(168, 85, 247, 0.15);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6),
+                0 0 30px rgba(225, 29, 72, 0.15);
     text-align: center;
 }
 
@@ -37,11 +37,11 @@ body {
     width: 65px;
     height: 65px;
     margin-bottom: 12px;
-    filter: drop-shadow(0 0 10px rgba(192, 132, 252, 0.6));
+    filter: drop-shadow(0 0 10px rgba(255, 69, 103, 0.6));
 }
 
 .header-escudo h2 {
-    color: #f3e8ff;
+    color: #ffe4e8;
     font-size: 1.3rem;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -58,7 +58,7 @@ body {
 
 #form-login label {
     font-size: 0.85rem;
-    color: #d8b4fe;
+    color: #ff9aad;
     margin-bottom: 8px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -79,13 +79,13 @@ body {
 #form-login input[type="text"]:focus,
 #form-login input[type="password"]:focus {
     outline: none;
-    border-color: #a855f7;
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+    border-color: #e11d48;
+    box-shadow: 0 0 15px rgba(225, 29, 72, 0.4);
     background: rgba(0, 0, 0, 0.5);
 }
 
 .btn-entrar {
-    background: linear-gradient(135deg, #a855f7, #6b21a8);
+    background: linear-gradient(135deg, #e11d48, #9f1239);
     color: #ffffff;
     border: none;
     border-radius: 10px;
@@ -97,12 +97,12 @@ body {
     letter-spacing: 1.5px;
     transition: all 0.3s ease;
     margin-top: 5px;
-    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+    box-shadow: 0 4px 15px rgba(225, 29, 72, 0.3);
 }
 
 .btn-entrar:hover {
-    background: linear-gradient(135deg, #c084fc, #7e22ce);
-    box-shadow: 0 0 25px rgba(192, 132, 252, 0.7);
+    background: linear-gradient(135deg, #fb7185, #be123c);
+    box-shadow: 0 0 25px rgba(251, 113, 133, 0.7);
     transform: translateY(-2px);
 }
 

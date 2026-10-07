@@ -21,7 +21,7 @@ body {
 /* MENU */
 
 header {
-    background-color: #111827;
+    background-color: #16070b;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -54,7 +54,7 @@ header {
 }
 
 .menu a:hover {
-    color: #60a5fa;
+    color: #fb7185;
 }
 
 
@@ -65,7 +65,7 @@ header {
     display: flex;
     align-items: center;
 
-    background-color: #111827;
+    background-color: #16070b;
     color: white;
 }
 
@@ -76,7 +76,7 @@ header {
 }
 
 .saudacao {
-    color: #60a5fa;
+    color: #fb4567;
     font-size: 20px;
     margin-bottom: 5px;
 }
@@ -102,7 +102,7 @@ header {
     margin-top: 30px;
     padding: 12px 25px;
 
-    background-color: #2563eb;
+    background-color: #e11d48;
     color: white;
 
     text-decoration: none;
@@ -114,7 +114,7 @@ header {
 }
 
 .botao:hover {
-    background-color: #1d4ed8;
+    background-color: #be123c;
     transform: translateY(-2px);
 }
 
@@ -165,14 +165,14 @@ header {
 .projeto-card:hover {
     transform: translateY(-5px);
 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(190, 18, 60, 0.20);
 }
 
 .projeto-numero {
     font-size: 35px;
     font-weight: bold;
 
-    color: #2563eb;
+    color: #e11d48;
 
     margin-bottom: 15px;
 }
@@ -200,8 +200,8 @@ header {
 }
 
 .tecnologias span {
-    background-color: #dbeafe;
-    color: #1e40af;
+    background-color: #ffe4e8;
+    color: #9f1239;
 
     padding: 5px 10px;
 
@@ -215,7 +215,7 @@ header {
 /* LINK DOS PROJETOS */
 
 .link-projeto {
-    color: #2563eb;
+    color: #e11d48;
 
     text-decoration: none;
 
@@ -232,7 +232,7 @@ header {
 .secao-destaque {
     max-width: 100%;
 
-    background-color: #e5e7eb;
+    background-color: #f3dfe3;
 }
 
 .secao-destaque > * {
@@ -259,7 +259,7 @@ header {
 
     border-radius: 50%;
 
-    background-color: #2563eb;
+    background-color: #e11d48;
     color: white;
 
     display: flex;
@@ -268,6 +268,8 @@ header {
 
     font-size: 45px;
     font-weight: bold;
+
+    box-shadow: 0 0 30px rgba(225, 29, 72, 0.35);
 }
 
 .sobre-texto h3 {
@@ -284,7 +286,7 @@ header {
 /* RODAPÉ */
 
 footer {
-    background-color: #111827;
+    background-color: #16070b;
     color: #cccccc;
 
     text-align: center;
