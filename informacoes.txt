@@ -1,0 +1,37 @@
+VETORES
+alunos[5]
+0= Aluno 1
+1= Aluno 2
+2= Aluno 3
+3= Aluno 4
+4= Aluno 5
+
+~~~~~~~~~~~~~~~~~
+ISSO É UM ARRAY SEQUENCIAL 
+
+ARRAY ASSOCIATIVO
+"nome": "Aluno 1",
+"nome2": "Aluno 2"
+
+exemplo:
+
+[
+    {
+        "nome": "Nali",
+        "idade": 19,
+        "curso": "Desenvolvimento de Sistemas"
+    }
+]
+
+~~~~~~~~~~~~~~~~~~
+
+       CRUD
+C= CREATE - criar
+R= READ - ler
+U= UPDATE - atualizar
+D= DELETE - deletar
+
+~~~~~~~~~~~~~~~~~~~
+
+JSON_PRETTY_PRINT = formatar o json corretamente
+JSON_UNESCAPED_UNICODE = ler caracteres especiais
