@@ -42,7 +42,6 @@
     <section class="conteudo-projeto">
         <h2>Cadastro de Jogos</h2>
     </section>
-    
 
     <!-- FIM DA ATIVIDADE -->
     <div class="voltar-projetos">
@@ -52,7 +51,7 @@
 
     <!-- RODAPÉ -->
     <footer>
-        <p>Desenvolvido por <a href="matheus315.devlook.xyz"> Nali </a> ° 2026 </p>
+        <p>Desenvolvido por <a href="ana315.devlook.xyz"> Ana Luiza </a> ° 2026 </p>
     </footer>
 </body>
 </html>

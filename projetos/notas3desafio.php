@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas do Aluno</title>
-    <link rel="stylesheet" href="/css/notas.css">
+
+    <link rel="stylesheet" href="/css/notas_desafio.css">
 </head>
 
 <body>
@@ -13,14 +14,16 @@
 <div class="card">
 
     <h1>Notas do Aluno</h1>
+    <p class="subtitulo">Preencha os dados abaixo para calcular a média</p>
 
-    <form method="POST" action="notas-desafio.php">
+    <form method="POST" action="">
         <div>
             <label for="nome">Nome do aluno:</label>
             <input
                 type="text"
                 id="nome"
                 name="nome"
+                placeholder="Digite o nome do aluno"
                 required
                 value="<?= htmlspecialchars($_POST['nome'] ?? '') ?>"
             >
@@ -33,6 +36,7 @@
                 id="idade"
                 name="idade"
                 min="0"
+                placeholder="Digite a idade"
                 required
                 value="<?= htmlspecialchars($_POST['idade'] ?? '') ?>"
             >
@@ -47,6 +51,7 @@
                 min="0"
                 max="10"
                 step="0.1"
+                placeholder="0.0 a 10.0"
                 required
                 value="<?= htmlspecialchars($_POST['nota1'] ?? '') ?>"
             >
@@ -61,6 +66,7 @@
                 min="0"
                 max="10"
                 step="0.1"
+                placeholder="0.0 a 10.0"
                 required
                 value="<?= htmlspecialchars($_POST['nota2'] ?? '') ?>"
             >
@@ -75,6 +81,7 @@
                 min="0"
                 max="10"
                 step="0.1"
+                placeholder="0.0 a 10.0"
                 required
                 value="<?= htmlspecialchars($_POST['nota3'] ?? '') ?>"
             >
@@ -89,6 +96,7 @@
                 min="0"
                 max="10"
                 step="0.1"
+                placeholder="0.0 a 10.0"
                 required
                 value="<?= htmlspecialchars($_POST['nota4'] ?? '') ?>"
             >
@@ -103,12 +111,14 @@
                 min="0"
                 max="10"
                 step="0.1"
+                placeholder="0.0 a 10.0"
                 required
                 value="<?= htmlspecialchars($_POST['nota5'] ?? '') ?>"
             >
         </div>
 
         <button type="submit">Calcular média</button>
+
     </form>
 
     <?php
@@ -141,21 +151,12 @@
         }
         ?>
 
-        <div class="resultado">
-            <h2>Resultado do Aluno</h2>
+        <div class="resultado" style="margin-top: 20px;">
+            <h2>Resultado</h2>
 
             <p><strong>Nome:</strong> <?= htmlspecialchars($nome) ?></p>
             <p><strong>Idade:</strong> <?= $idade ?> anos</p>
-
-            <div class="notas-list">
-                <div class="nota-item"><span>Nota 1 (Peso 2):</span> <strong><?= number_format($nota1, 1, ',', '.') ?></strong></div>
-                <div class="nota-item"><span>Nota 2 (Peso 3):</span> <strong><?= number_format($nota2, 1, ',', '.') ?></strong></div>
-                <div class="nota-item"><span>Nota 3 (Peso 1):</span> <strong><?= number_format($nota3, 1, ',', '.') ?></strong></div>
-                <div class="nota-item"><span>Nota 4 (Peso 1):</span> <strong><?= number_format($nota4, 1, ',', '.') ?></strong></div>
-                <div class="nota-item"><span>Nota 5 (Peso 3):</span> <strong><?= number_format($nota5, 1, ',', '.') ?></strong></div>
-            </div>
-
-            <p><strong>Média Final:</strong> <?= number_format($media, 2, ',', '.') ?></p>
+            <p><strong>Média:</strong> <?= number_format($media, 1, ',', '.') ?></p>
             <p>
                 <strong>Situação:</strong>
                 <span class="<?= $classeSituacao ?>"><?= $situacao ?></span>
@@ -166,9 +167,10 @@
     }
     ?>
 
-    <div class="links">
-        <a href="index.php">Calcular médias</a>
-        <a href="idade.php">Verificar idade</a>
+    
+    <div class="menu-options" style="margin-top: 20px;">
+        <a href="index.php" class="btn-menu">Calcular médias</a>
+        <a href="idade.php" class="btn-menu">Verificar idade</a>
     </div>
 
 </div>

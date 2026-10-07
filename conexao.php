@@ -1,26 +1,26 @@
 <?php
 
-// dados para conexão mysql
-$host = "localhost";
-$banco = "matheus315";
-$usuario = "matheus315";
-$senha = "315!@#";
+    $host = "localhost";
+    $banco = "ana315";
+    $usuario ="ana315";
+    $senha = "315!@#";
 
-// PDO = PHP DATA OBJECTS - É UMA FERRAMENTEA DO PHP PARA CONVERSAR COM BANCO DE DADOS
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$banco;charset=utf8mb4", $usuario, $senha);
+    // PDO= PHP Data Objects (uma ferramenta do php para conversar com o bando de dados)
 
-    // -> SERVE PARA PUXAR ALGO QUE PERTENCE AQUELE OBJETO
-    // PDO:: ATTR_ERRMODE - É PARA CONFIGURAR O MODO DE ERROS DO PDO
-    // PDO::ERRMODE_EXCEPTION - É PARA QUANDO ACONTECER ALGUM ERRO, TRANSFORMAR EM EXECUÇÃO
+try{
+    $pdo= new PDO("mysql: host=$host;dbname=$banco;charset=utf8mb4", $usuario, $senha);
+
     $pdo->setAttribute(
-        PDO::ATTR_ERRMODE,
-        PDO::ERRMODE_EXCEPTION
+        // -> SERVE PARA PUXAR ALGO QUE PRENDE AQUELE OBJETO
+        // PDO:: ATTR_ERRMODE - É PARA CONFIGURAR O MODO DE ERROS DO PDO
+        // PDO:: ERRMODE_EXCEPTION - É PARA QUANDO ACONTECER ALGUM ERRO, TRANSFORMAR EM EXECUÇÃO
+        PDO:: ATTR_ERRMODE, 
+        PDO:: ERRMODE_EXCEPTION
     );
 
-    echo "<h1> conectado com sucesso!";
+    echo  "Conectado com sucesso!";
 
-} catch (PDOException $erro) {
+} catch (PDOException $erro){
 
     echo "Erro ao conectar:".$erro->getMessage();
 

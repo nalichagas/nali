@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login 2.0</title>
     <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
 <?php
 
-$usuario_correto = "Nathaly";
+$usuario_correto = "Ana Luluiza";
 $senha_correta = "12345";
 
 $mensagem = "";
