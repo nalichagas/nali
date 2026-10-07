@@ -9,8 +9,8 @@
 <body>
 <?php
 
-$usuario_correto = "Ana Luluiza";
-$senha_correta = "12345";
+$usuario_correto = "Nali";
+$senha_correta = "08032007";
 
 $mensagem = "";
 
