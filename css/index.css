@@ -1,4 +1,3 @@
-
 /* CONFIGURAÇÕES GERAIS */
 
 * {
@@ -12,34 +11,39 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff8fa;
-    color: #49202b;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #16050a, #2b0914, #16050a);
+    color: #fff5f7;
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 
 /* MENU */
 
 header {
-    background-color: #4b0718;
+    background: #210710;
     position: sticky;
     top: 0;
     z-index: 100;
+    border-bottom: 1px solid #51202e;
 }
 
 .navbar {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    color: #fff0f4;
+.logo,
+.inicio h1,
+.titulo-secao,
+.projeto-card h3,
+.sobre-texto h3 {
+    color: #fff5f7;
 }
 
 .menu {
@@ -49,14 +53,16 @@ header {
 }
 
 .menu a {
-    color: #ffe1e9;
+    color: #f0cbd5;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
-.menu a:hover {
-    color: #ff91ad;
+.menu a:hover,
+.link-projeto:hover,
+footer a:hover {
+    color: #ff91aa;
 }
 
 
@@ -66,9 +72,7 @@ header {
     min-height: 85vh;
     display: flex;
     align-items: center;
-
-    background: linear-gradient(135deg, #4b0718, #78152f, #a51d42);
-    color: #fff8fa;
+    background: linear-gradient(135deg, #16050a, #480d20, #210710);
 }
 
 .inicio-conteudo {
@@ -77,49 +81,53 @@ header {
     margin: auto;
 }
 
+.saudacao,
+.link-projeto,
+.formulario-aluno p {
+    color: #f45b7c;
+}
+
 .saudacao {
-    color: #ff9db5;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
 .inicio h1 {
     font-size: 60px;
-    margin-bottom: 5px;
 }
 
 .inicio h2 {
     font-size: 30px;
-    color: #f6c6d3;
+    color: #e6b8c5;
     margin-bottom: 20px;
 }
 
 .inicio-conteudo > p {
     max-width: 600px;
-    color: #fff0f4;
+    color: #f0dce2;
+}
+
+.botao,
+.botao-acao.primario {
+    background: linear-gradient(90deg, #d91e4b, #a90f35);
+    color: #fff;
 }
 
 .botao {
     display: inline-block;
-
     margin-top: 30px;
     padding: 12px 25px;
-
-    background-color: #c21845;
-    color: white;
-
     text-decoration: none;
     border-radius: 25px;
-
     font-weight: bold;
-
-    box-shadow: 0 5px 15px rgba(194, 24, 69, 0.25);
     transition: 0.3s;
+    box-shadow: 0 5px 18px #a90f3533;
 }
 
-.botao:hover {
-    background-color: #e04468;
-    transform: translateY(-3px);
+.botao:hover,
+.botao-acao.primario:hover {
+    background: linear-gradient(90deg, #f45b7c, #c21845);
+    transform: translateY(-2px);
 }
 
 
@@ -135,12 +143,11 @@ header {
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
-    color: #7d1732;
 }
 
 .subtitulo-secao {
     text-align: center;
-    color: #956773;
+    color: #c9a5b0;
     margin-bottom: 40px;
 }
 
@@ -153,38 +160,40 @@ header {
     gap: 25px;
 }
 
+.projeto-card,
+.formulario-aluno {
+    background: #2b111c;
+    border: 1px solid #51202e;
+    box-shadow: 0 8px 25px #0004;
+}
+
 .projeto-card {
-    background-color: #ffffff;
     padding: 30px;
-
-    border: 1px solid #f8dce4;
-    border-radius: 18px;
-
-    box-shadow: 0 5px 18px rgba(125, 23, 50, 0.08);
+    border-radius: 16px;
     transition: 0.3s;
 }
 
 .projeto-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(194, 24, 69, 0.16);
-    border-color: #f0b7c7;
+    border-color: #c21845;
+    box-shadow: 0 10px 25px #c2184520;
 }
 
 .projeto-numero {
     font-size: 35px;
     font-weight: bold;
-    color: #c21845;
+    color: #f45b7c;
     margin-bottom: 15px;
 }
 
 .projeto-card h3 {
     font-size: 22px;
     margin-bottom: 10px;
-    color: #76172f;
 }
 
-.projeto-card p {
-    color: #78545e;
+.projeto-card p,
+.sobre-texto p {
+    color: #d4b9c2;
     margin-bottom: 20px;
 }
 
@@ -199,13 +208,11 @@ header {
 }
 
 .tecnologias span {
-    background-color: #ffe5ec;
-    color: #9f173c;
-
-    padding: 5px 12px;
-    border: 1px solid #f8c8d5;
-    border-radius: 20px;
-
+    background: #4b1929;
+    color: #ffb4c5;
+    padding: 5px 10px;
+    border: 1px solid #6d293d;
+    border-radius: 8px;
     font-size: 13px;
     font-weight: bold;
 }
@@ -213,15 +220,16 @@ header {
 
 /* LINK DOS PROJETOS */
 
-.link-projeto {
-    color: #bd1742;
+.link-projeto,
+.link-projeto:visited {
+    color: #f45b7c;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .link-projeto:hover {
-    color: #e04468;
+    color: #ff91aa;
     text-decoration: underline;
 }
 
@@ -229,14 +237,13 @@ header {
 /* SOBRE */
 
 .secao-destaque {
-    max-width: 100%;
-    background-color: #ffedf2;
+    background: #210710;
+    border-block: 1px solid #51202e;
 }
 
 .secao-destaque > * {
     max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .sobre-conteudo {
@@ -251,41 +258,125 @@ header {
     height: 200px;
     min-width: 200px;
     border-radius: 50%;
-
-    background: linear-gradient(135deg, #d52a52, #f28ba5);
-    color: white;
-
+    background: linear-gradient(135deg, #e04468, #a90f35);
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid #6d293d;
+    box-shadow: 0 0 25px #c2184525;
+}
 
-    font-size: 45px;
-    font-weight: bold;
-
-    border: 6px solid #ffffff;
-    box-shadow: 0 0 25px rgba(194, 24, 69, 0.18);
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .sobre-texto h3 {
     font-size: 25px;
     margin-bottom: 15px;
-    color: #7d1732;
 }
 
-.sobre-texto p {
-    margin-bottom: 15px;
-    color: #69434e;
+
+/* FORMULÁRIO DO ALUNO */
+
+.formulario-aluno {
+    padding: 40px 30px;
+    border-radius: 18px;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    color: #fff5f7;
+    text-align: center;
+}
+
+.formulario-aluno h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.formulario-aluno p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.formulario-grupo {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.formulario-grupo label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f2a0b4;
+    margin-bottom: 7px;
+}
+
+.formulario-grupo input {
+    width: 100%;
+    padding: 13px 15px;
+    background: #1b0911;
+    border: 1px solid #683044;
+    border-radius: 25px;
+    color: #fff5f7;
+    outline: none;
+    transition: 0.3s;
+}
+
+.formulario-grupo input::placeholder {
+    color: #a58b94;
+}
+
+.formulario-grupo input:focus {
+    border-color: #e04468;
+    box-shadow: 0 0 0 3px #e044681c;
+}
+
+
+/* BOTÕES DO FORMULÁRIO */
+
+.botao-acao {
+    width: 100%;
+    padding: 13px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.botao-acao.primario {
+    border: none;
+}
+
+.botao-acao.secundario {
+    background: #4b1929;
+    color: #fff5f7;
+    border: 1px solid #783249;
+}
+
+.botao-acao.secundario:hover {
+    background: #6d2039;
+    border-color: #e04468;
 }
 
 
 /* RODAPÉ */
 
 footer {
-    background-color: #4b0718;
-    color: #f9dce5;
-
+    background: #16050a;
+    color: #c9a5b0;
     text-align: center;
     padding: 30px;
+    border-top: 1px solid #51202e;
+}
+
+footer a,
+footer a:visited {
+    color: #f45b7c;
+    text-decoration: none;
 }
 
 
@@ -293,9 +384,9 @@ footer {
 
 @media (max-width: 800px) {
 
-    .navbar {
+    .navbar,
+    .sobre-conteudo {
         flex-direction: column;
-        gap: 15px;
     }
 
     .menu {
@@ -321,21 +412,11 @@ footer {
     }
 
     .sobre-conteudo {
-        flex-direction: column;
         text-align: center;
     }
-    
-    .projeto-card a,
-    .projeto-card a:visited {
-        color: #c21845;
-        text-decoration: none;
-        font-weight: bold;
-        transition: 0.3s;
+
+    .formulario-aluno {
+        padding: 25px;
+        max-width: 90%;
     }
-    
-    .projeto-card a:hover {
-        color: #e04468;
-        text-decoration: underline;
-    }
-    
 }
