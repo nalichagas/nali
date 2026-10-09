@@ -199,6 +199,29 @@
 
         </div>
 
+        <div class="projeto-card">
+
+                <div class="projeto-numero">06</div>
+
+                <h3>Helpdesk</h3>
+
+                <p>
+                Sistema responsável pela interface HTML, formulários, listagem de chamados e execução das funções. Utilizado para recebimento
+                de suporte técnico de indústrias
+                </p>
+
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>PHP</span>
+                    <span>CSS</span>
+                </div>
+
+                <a href="projetos/helpdesk.php" class="link-projeto">
+                    Abrir atividade →
+                </a>
+
+            </div>
+
     </section>
 
 
