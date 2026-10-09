@@ -324,5 +324,18 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-
+    
+    .projeto-card a,
+    .projeto-card a:visited {
+        color: #c21845;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    
+    .projeto-card a:hover {
+        color: #e04468;
+        text-decoration: underline;
+    }
+    
 }
