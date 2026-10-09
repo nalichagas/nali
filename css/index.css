@@ -67,9 +67,9 @@ header {
     align-items: center;
     background: linear-gradient(
         135deg,
-        #640000,
-        #640000,
-        #8f1233
+        #ffffff,
+        #ffffff,
+        #640000
     );
     position: relative;
     overflow: hidden;
