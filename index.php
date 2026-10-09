@@ -138,7 +138,7 @@
                     <span>CSS</span>
                 </div>
 
-                <a href="projetos/notasdesafio.php" class="link-projetos">
+                <a href="projetos/notas3desafio.php" class="link-projetos">
                     Abrir atividade →
                 </a>
 
