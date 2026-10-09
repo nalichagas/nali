@@ -1,4 +1,4 @@
-/* CONFIGURAÇÕES GERAIS 🍒 */
+/* CONFIGURAÇÕES GERAIS */
 
 * {
     margin: 0;
@@ -12,21 +12,20 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff8fa;
+    background-color: #fff8f8;
     color: #49202b;
     line-height: 1.6;
 }
 
-
 /* MENU */
 
 header {
-    background: #210710;
+    background: #fbe4eb;
     position: sticky;
     top: 0;
     z-index: 100;
-    border-bottom: 1px solid #51202e;
-    box-shadow: 0 3px 15px rgba(80, 10, 30, 0.12);
+    border-bottom: 1px solid #f2c5d2;
+    box-shadow: 0 3px 15px rgba(80, 10, 30, 0.08);
 }
 
 .navbar {
@@ -38,15 +37,8 @@ header {
     align-items: center;
 }
 
-.logo,
-.inicio h1,
-.titulo-secao,
-.projeto-card h3,
-.sobre-texto h3 {
-    color: #fff5f7;
-}
-
 .logo {
+    color: #781b36;
     letter-spacing: 0.5px;
 }
 
@@ -57,16 +49,15 @@ header {
 }
 
 .menu a {
-    color: #f0cbd5;
+    color: #781b36;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.25s ease;
 }
 
 .menu a:hover {
-    color: #ff91aa;
+    color: #d9234e;
 }
-
 
 /* INÍCIO */
 
@@ -76,9 +67,9 @@ header {
     align-items: center;
     background: linear-gradient(
         135deg,
-        #16050a,
-        #480d20,
-        #210710
+        #d71945,
+        #b5123b,
+        #8f1233
     );
     position: relative;
     overflow: hidden;
@@ -92,13 +83,14 @@ header {
 }
 
 .saudacao {
-    color: #ff91aa;
+    color: #ffe0e8;
     font-size: 20px;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
 .inicio h1 {
+    color: #ffffff;
     font-size: 60px;
     line-height: 1.15;
     margin-bottom: 12px;
@@ -107,16 +99,15 @@ header {
 
 .inicio h2 {
     font-size: 30px;
-    color: #e6b8c5;
+    color: #ffe0e8;
     margin-bottom: 20px;
     font-weight: 600;
 }
 
 .inicio-conteudo > p:not(.saudacao) {
     max-width: 600px;
-    color: #f0dce2;
+    color: #fff0f4;
 }
-
 
 /* BOTÃO PRINCIPAL */
 
@@ -124,20 +115,20 @@ header {
     display: inline-block;
     margin-top: 30px;
     padding: 13px 27px;
-    background: linear-gradient(135deg, #e52b55, #b5123b);
-    color: #fff;
+    background: #fff;
+    color: #b5123b;
     text-decoration: none;
     border-radius: 12px;
     font-weight: bold;
-    box-shadow: 0 6px 18px rgba(225, 29, 72, 0.25);
+    box-shadow: 0 6px 18px rgba(80, 10, 30, 0.15);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .botao:hover {
     transform: translateY(-3px);
-    box-shadow: 0 9px 23px rgba(225, 29, 72, 0.35);
+    box-shadow: 0 9px 23px rgba(80, 10, 30, 0.23);
+    background: #fff0f4;
 }
-
 
 /* SEÇÕES */
 
@@ -147,19 +138,31 @@ header {
     padding: 80px 20px;
 }
 
+/* FUNDO DA ÁREA DE ATIVIDADES */
+
+#atividades {
+    max-width: 100%;
+    background: #d71945;
+}
+
+#atividades > * {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .titulo-secao {
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
-    color: #781b36;
+    color: #ffffff;
 }
 
 .subtitulo-secao {
     text-align: center;
-    color: #a47b88;
+    color: #ffe0e8;
     margin-bottom: 40px;
 }
-
 
 /* CARDS DAS ATIVIDADES */
 
@@ -171,24 +174,24 @@ header {
 
 .projeto-card {
     background: #ffffff;
-    border: 1px solid #f5dce3;
+    border: 1px solid #f9d5df;
     padding: 30px;
     border-radius: 18px;
-    box-shadow: 0 5px 18px rgba(125, 23, 50, 0.07);
+    box-shadow: 0 5px 18px rgba(80, 10, 30, 0.12);
     transition: transform 0.25s ease, box-shadow 0.25s ease,
                 border-color 0.25s ease;
 }
 
 .projeto-card:hover {
     transform: translateY(-6px);
-    border-color: #ed9caf;
-    box-shadow: 0 12px 26px rgba(194, 24, 69, 0.13);
+    border-color: #f3a2b7;
+    box-shadow: 0 12px 26px rgba(80, 10, 30, 0.2);
 }
 
 .projeto-numero {
     font-size: 35px;
     font-weight: bold;
-    color: #d9234e;
+    color: #d71945;
     margin-bottom: 15px;
 }
 
@@ -203,7 +206,6 @@ header {
     margin-bottom: 20px;
 }
 
-
 /* TECNOLOGIAS */
 
 .tecnologias {
@@ -215,7 +217,7 @@ header {
 
 .tecnologias span {
     background: #fff0f4;
-    color: #b51d43;
+    color: #b5123b;
     padding: 5px 11px;
     border: 1px solid #f8d5df;
     border-radius: 8px;
@@ -223,36 +225,45 @@ header {
     font-weight: bold;
 }
 
-
 /* LINKS DAS ATIVIDADES */
 
 .link-projeto,
-.link-projeto:visited {
+.link-projeto:visited,
+.link-projetos,
+.link-projetos:visited {
     color: #c21845;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.25s ease;
 }
 
-.link-projeto:hover {
+.link-projeto:hover,
+.link-projetos:hover {
     color: #ed5275;
     text-decoration: underline;
 }
-
 
 /* SOBRE */
 
 .secao-destaque {
     max-width: 100%;
-    background: linear-gradient(135deg, #fff0f4, #fbe4eb);
-    border-top: 1px solid #f5d3dd;
-    border-bottom: 1px solid #f5d3dd;
+    background: #fbe4eb;
+    border-top: 1px solid #f2c5d2;
+    border-bottom: 1px solid #f2c5d2;
 }
 
 .secao-destaque > * {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.secao-destaque .titulo-secao {
+    color: #781b36;
+}
+
+.secao-destaque .subtitulo-secao {
+    color: #a47b88;
 }
 
 .sobre-conteudo {
@@ -295,7 +306,6 @@ header {
     color: #856571;
     margin-bottom: 15px;
 }
-
 
 /* FORMULÁRIO DO ALUNO */
 
@@ -357,7 +367,6 @@ header {
     box-shadow: 0 0 0 3px rgba(217, 35, 78, 0.1);
 }
 
-
 /* BOTÕES DO FORMULÁRIO */
 
 .botao-acao {
@@ -391,27 +400,25 @@ header {
     border-color: #e58aa2;
 }
 
-
 /* RODAPÉ */
 
 footer {
-    background: #16050a;
-    color: #d9b8c2;
+    background: #fbe4eb;
+    color: #781b36;
     text-align: center;
     padding: 30px;
-    border-top: 1px solid #51202e;
+    border-top: 1px solid #f2c5d2;
 }
 
 footer a,
 footer a:visited {
-    color: #ff91aa;
+    color: #b5123b;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #ffc0cf;
+    color: #d71945;
 }
-
 
 /* RESPONSIVIDADE */
 
