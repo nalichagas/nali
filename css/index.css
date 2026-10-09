@@ -1,4 +1,4 @@
-/* CONFIGURAÇÕES GERAIS */
+/* CONFIGURAÇÕES GERAIS 🍒 */
 
 * {
     margin: 0;
@@ -11,11 +11,10 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #16050a, #2b0914, #16050a);
-    color: #fff5f7;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8fa;
+    color: #49202b;
     line-height: 1.6;
-    min-height: 100vh;
 }
 
 
@@ -27,6 +26,7 @@ header {
     top: 0;
     z-index: 100;
     border-bottom: 1px solid #51202e;
+    box-shadow: 0 3px 15px rgba(80, 10, 30, 0.12);
 }
 
 .navbar {
@@ -46,6 +46,10 @@ header {
     color: #fff5f7;
 }
 
+.logo {
+    letter-spacing: 0.5px;
+}
+
 .menu {
     display: flex;
     gap: 25px;
@@ -56,12 +60,10 @@ header {
     color: #f0cbd5;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.25s ease;
 }
 
-.menu a:hover,
-.link-projeto:hover,
-footer a:hover {
+.menu a:hover {
     color: #ff91aa;
 }
 
@@ -72,62 +74,68 @@ footer a:hover {
     min-height: 85vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #16050a, #480d20, #210710);
+    background: linear-gradient(
+        135deg,
+        #16050a,
+        #480d20,
+        #210710
+    );
+    position: relative;
+    overflow: hidden;
 }
 
 .inicio-conteudo {
     width: 1100px;
     max-width: 90%;
     margin: auto;
-}
-
-.saudacao,
-.link-projeto,
-.formulario-aluno p {
-    color: #f45b7c;
+    padding: 30px 0;
 }
 
 .saudacao {
+    color: #ff91aa;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .inicio h1 {
     font-size: 60px;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    letter-spacing: -1px;
 }
 
 .inicio h2 {
     font-size: 30px;
     color: #e6b8c5;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
-.inicio-conteudo > p {
+.inicio-conteudo > p:not(.saudacao) {
     max-width: 600px;
     color: #f0dce2;
 }
 
-.botao,
-.botao-acao.primario {
-    background: linear-gradient(90deg, #d91e4b, #a90f35);
-    color: #fff;
-}
+
+/* BOTÃO PRINCIPAL */
 
 .botao {
     display: inline-block;
     margin-top: 30px;
-    padding: 12px 25px;
+    padding: 13px 27px;
+    background: linear-gradient(135deg, #e52b55, #b5123b);
+    color: #fff;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 12px;
     font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0 5px 18px #a90f3533;
+    box-shadow: 0 6px 18px rgba(225, 29, 72, 0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.botao:hover,
-.botao-acao.primario:hover {
-    background: linear-gradient(90deg, #f45b7c, #c21845);
-    transform: translateY(-2px);
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 9px 23px rgba(225, 29, 72, 0.35);
 }
 
 
@@ -143,11 +151,12 @@ footer a:hover {
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
+    color: #781b36;
 }
 
 .subtitulo-secao {
     text-align: center;
-    color: #c9a5b0;
+    color: #a47b88;
     margin-bottom: 40px;
 }
 
@@ -160,40 +169,37 @@ footer a:hover {
     gap: 25px;
 }
 
-.projeto-card,
-.formulario-aluno {
-    background: #2b111c;
-    border: 1px solid #51202e;
-    box-shadow: 0 8px 25px #0004;
-}
-
 .projeto-card {
+    background: #ffffff;
+    border: 1px solid #f5dce3;
     padding: 30px;
-    border-radius: 16px;
-    transition: 0.3s;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(125, 23, 50, 0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease,
+                border-color 0.25s ease;
 }
 
 .projeto-card:hover {
-    transform: translateY(-5px);
-    border-color: #c21845;
-    box-shadow: 0 10px 25px #c2184520;
+    transform: translateY(-6px);
+    border-color: #ed9caf;
+    box-shadow: 0 12px 26px rgba(194, 24, 69, 0.13);
 }
 
 .projeto-numero {
     font-size: 35px;
     font-weight: bold;
-    color: #f45b7c;
+    color: #d9234e;
     margin-bottom: 15px;
 }
 
 .projeto-card h3 {
     font-size: 22px;
+    color: #572031;
     margin-bottom: 10px;
 }
 
-.projeto-card p,
-.sobre-texto p {
-    color: #d4b9c2;
+.projeto-card p {
+    color: #856571;
     margin-bottom: 20px;
 }
 
@@ -204,32 +210,32 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .tecnologias span {
-    background: #4b1929;
-    color: #ffb4c5;
-    padding: 5px 10px;
-    border: 1px solid #6d293d;
+    background: #fff0f4;
+    color: #b51d43;
+    padding: 5px 11px;
+    border: 1px solid #f8d5df;
     border-radius: 8px;
     font-size: 13px;
     font-weight: bold;
 }
 
 
-/* LINK DOS PROJETOS */
+/* LINKS DAS ATIVIDADES */
 
 .link-projeto,
 .link-projeto:visited {
-    color: #f45b7c;
+    color: #c21845;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.25s ease;
 }
 
 .link-projeto:hover {
-    color: #ff91aa;
+    color: #ed5275;
     text-decoration: underline;
 }
 
@@ -237,13 +243,16 @@ footer a:hover {
 /* SOBRE */
 
 .secao-destaque {
-    background: #210710;
-    border-block: 1px solid #51202e;
+    max-width: 100%;
+    background: linear-gradient(135deg, #fff0f4, #fbe4eb);
+    border-top: 1px solid #f5d3dd;
+    border-bottom: 1px solid #f5d3dd;
 }
 
 .secao-destaque > * {
     max-width: 1100px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sobre-conteudo {
@@ -259,11 +268,14 @@ footer a:hover {
     min-width: 200px;
     border-radius: 50%;
     background: linear-gradient(135deg, #e04468, #a90f35);
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid #6d293d;
-    box-shadow: 0 0 25px #c2184525;
+    font-size: 45px;
+    font-weight: bold;
+    border: 6px solid #fff;
+    box-shadow: 0 5px 22px rgba(194, 24, 69, 0.2);
 }
 
 .foto img {
@@ -275,6 +287,12 @@ footer a:hover {
 
 .sobre-texto h3 {
     font-size: 25px;
+    color: #781b36;
+    margin-bottom: 15px;
+}
+
+.sobre-texto p {
+    color: #856571;
     margin-bottom: 15px;
 }
 
@@ -282,21 +300,26 @@ footer a:hover {
 /* FORMULÁRIO DO ALUNO */
 
 .formulario-aluno {
+    background: #fff;
+    border: 1px solid #f5dce3;
+    box-shadow: 0 8px 25px rgba(125, 23, 50, 0.08);
     padding: 40px 30px;
     border-radius: 18px;
     width: 100%;
     max-width: 500px;
     margin: 40px auto;
-    color: #fff5f7;
+    color: #49202b;
     text-align: center;
 }
 
 .formulario-aluno h2 {
     font-size: 28px;
     margin-bottom: 8px;
+    color: #781b36;
 }
 
 .formulario-aluno p {
+    color: #c21845;
     font-size: 14px;
     margin-bottom: 25px;
 }
@@ -310,28 +333,28 @@ footer a:hover {
     display: block;
     font-size: 14px;
     font-weight: bold;
-    color: #f2a0b4;
+    color: #9b3451;
     margin-bottom: 7px;
 }
 
 .formulario-grupo input {
     width: 100%;
     padding: 13px 15px;
-    background: #1b0911;
-    border: 1px solid #683044;
-    border-radius: 25px;
-    color: #fff5f7;
+    background: #fff8fa;
+    border: 1px solid #efcbd6;
+    border-radius: 12px;
+    color: #49202b;
     outline: none;
-    transition: 0.3s;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .formulario-grupo input::placeholder {
-    color: #a58b94;
+    color: #b99ba5;
 }
 
 .formulario-grupo input:focus {
-    border-color: #e04468;
-    box-shadow: 0 0 0 3px #e044681c;
+    border-color: #d9234e;
+    box-shadow: 0 0 0 3px rgba(217, 35, 78, 0.1);
 }
 
 
@@ -340,26 +363,32 @@ footer a:hover {
 .botao-acao {
     width: 100%;
     padding: 13px;
-    border-radius: 25px;
+    border-radius: 12px;
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 12px;
-    transition: 0.3s;
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .botao-acao.primario {
+    background: linear-gradient(135deg, #e52b55, #b5123b);
+    color: #fff;
     border: none;
 }
 
+.botao-acao.primario:hover {
+    transform: translateY(-2px);
+}
+
 .botao-acao.secundario {
-    background: #4b1929;
-    color: #fff5f7;
-    border: 1px solid #783249;
+    background: #fff0f4;
+    color: #a7193d;
+    border: 1px solid #efc1ce;
 }
 
 .botao-acao.secundario:hover {
-    background: #6d2039;
-    border-color: #e04468;
+    background: #ffe0e9;
+    border-color: #e58aa2;
 }
 
 
@@ -367,7 +396,7 @@ footer a:hover {
 
 footer {
     background: #16050a;
-    color: #c9a5b0;
+    color: #d9b8c2;
     text-align: center;
     padding: 30px;
     border-top: 1px solid #51202e;
@@ -375,8 +404,12 @@ footer {
 
 footer a,
 footer a:visited {
-    color: #f45b7c;
+    color: #ff91aa;
     text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffc0cf;
 }
 
 
@@ -387,6 +420,10 @@ footer a:visited {
     .navbar,
     .sobre-conteudo {
         flex-direction: column;
+    }
+
+    .navbar {
+        gap: 15px;
     }
 
     .menu {
