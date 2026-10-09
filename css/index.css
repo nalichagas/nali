@@ -247,9 +247,9 @@ header {
 
 .secao-destaque {
     max-width: 100%;
-    background: #fbe4eb;
-    border-top: 1px solid #f2c5d2;
-    border-bottom: 1px solid #f2c5d2;
+    background: #640000;
+    border-top: 1px solid #640000;
+    border-bottom: 1px solid #640000;
 }
 
 .secao-destaque > * {
@@ -259,11 +259,11 @@ header {
 }
 
 .secao-destaque .titulo-secao {
-    color: #781b36;
+    color: #ffffff;
 }
 
 .secao-destaque .subtitulo-secao {
-    color: #a47b88;
+    color: #ffffff;
 }
 
 .sobre-conteudo {
@@ -278,7 +278,7 @@ header {
     height: 200px;
     min-width: 200px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #e04468, #a90f35);
+    background: linear-gradient(135deg, #ffffff, #ffffff);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -303,7 +303,7 @@ header {
 }
 
 .sobre-texto p {
-    color: #856571;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
