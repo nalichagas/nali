@@ -20,11 +20,11 @@ body {
 /* MENU */
 
 header {
-    background: #fbe4eb;
+    background: #640000;
     position: sticky;
     top: 0;
     z-index: 100;
-    border-bottom: 1px solid #f2c5d2;
+    border-bottom: 1px solid #ffffff;
     box-shadow: 0 3px 15px rgba(80, 10, 30, 0.08);
 }
 
@@ -83,7 +83,7 @@ header {
 }
 
 .saudacao {
-    color: #640000;
+    color: #ffe0e8;
     font-size: 20px;
     margin-bottom: 8px;
     font-weight: bold;
