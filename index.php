@@ -20,6 +20,6 @@
     [$metodo][$rota];
 
     //
-    $controller->$acao;
+    $controller->$acao();
 
 ?>
