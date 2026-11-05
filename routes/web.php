@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TesteController;
+use App\Http\Controllers\HelpdeskController;
 
 Route::get('/', function () {
     return view('portfolio');
