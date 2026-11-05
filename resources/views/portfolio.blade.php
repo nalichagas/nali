@@ -26,11 +26,9 @@
             <div class="inicio-conteudo">
 
                 <p class="saudacao">Olá! Eu sou</p>
-                <h1>Felipe Pantarotti</h1>
-                <h2>Desenvolvedor em formação</h2>
-                <p>Estou em constante aprendizado na área de desenvolvimento de sistemas. 
-                    Busco aprimorar minhas habilidades em programação, 
-                    desenvolver soluções criativas e transformar ideias em projetos funcionais.
+                <h1>Nathaly</h1>
+                <h2>Desenvolvedora em formação</h2>
+                <p> 
                 </p>
 
                 <a href="#projetos" class="botao">
@@ -48,10 +46,10 @@
                 <div class="sobre-texto">
                     <h3>Quem sou eu?</h3>
                     <p>
-                        Meu nome é Felipe Pantarotti e sou estudante de Desenvolvimento de Sistemas, com foco em programação e desenvolvimento web.
+                        Meu nome é Nathaly e sou estudante de Desenvolvimento de Sistemas, com foco em programação e desenvolvimento web.
                         Estou sempre buscando aprender novas tecnologias, aperfeiçoar minhas habilidades e colocar meus conhecimentos em prática 
                         por meio de projetos que envolvam lógica de programação, criação de interfaces e desenvolvimento de sistemas.
-                        Este portfólio reúne alguns dos meus projetos, minha evolução como desenvolvedor e minha dedicação em construir soluções cada vez melhores. 
+                        Este portfólio reúne alguns dos meus projetos, minha evolução como desenvolvedora e minha dedicação em construir soluções cada vez melhores. 
                         Estou em busca de oportunidades para adquirir experiência, colaborar com equipes e crescer profissionalmente na área de tecnologia. 
                     </p>
                 </div>
@@ -64,30 +62,16 @@
                 Algumas tecnologias que estou estudando:
             </p>
             <div class="lista-habilidades">
-                <div class="habilidade">
-                    HTML
-                </div>
-                <div class="habilidade">
-                    CSS
-                </div>
-                <div class="habilidade">
-                    PHP
-                </div>
-                <div class="habilidade">
-                    JAVA SCRIPT
-                </div>
-                <div class="habilidade">
-                    REACT
-                </div>
-                <div class="habilidade">
-                    LINGUAGEM C
-                </div>
-                <div class="habilidade">
-                    PYTHON
-                </div>
+                <div class="habilidade">HTML</div>
+                <div class="habilidade">CSS</div>
+                <div class="habilidade">PHP</div>
+                <div class="habilidade">JAVA SCRIPT</div>
+                <div class="habilidade">REACT</div>
+                <div class="habilidade">LINGUAGEM C</div>
+                <div class="habilidade">PYTHON</div>
             </div>
         </section>
-        
+
         <section>
             <section id="projetos" class="secao">
                 <h2 class="titulo-secao">Meus Projetos</h2>
@@ -97,9 +81,7 @@
                 <div class="projetos-container">
                     <!-- PROJETO 1 -->
                      <div class="projeto-card">
-                        <div class="projeto-numero">
-                            01
-                        </div>
+                        <div class="projeto-numero">01</div>
                         <h3>Verificação de Idade</h3>
                         <p>
                             Aplicação desenvolvida em PHP que verifica se uma pessoa é maior ou menor de idade 
@@ -110,16 +92,14 @@
                             <span>CSS</span>
                             <span>PHP</span>
                         </div>
-                        <a href="/resources/views/projetos/idade.php" class="link-projeto">
+                        <a href="{{ route('') }}" class="link-projeto">
                             Ver projeto
                         </a>
-
                      </div>
+
                      <!-- PROJETO 2 -->
                      <div class="projeto-card">
-                        <div class="projeto-numero">
-                            02
-                        </div>
+                        <div class="projeto-numero">02</div>
                         <h3>Verificador de notas escolares</h3>
                         <p>
                             Sistema em PHP que calcula a média ponderada de um aluno e determina sua situação escolar 
@@ -137,9 +117,7 @@
 
                      <!-- PROJETO 3 -->
                      <div class="projeto-card">
-                        <div class="projeto-numero">
-                            03
-                        </div>
+                        <div class="projeto-numero">03</div>
                         <h3>Sistema de login básico</h3>
                         <p>
                             Aplicação em PHP que verifica as credenciais informadas pelo usuário 
@@ -156,9 +134,7 @@
 
                      <!-- PROJETO 4 -->
                      <div class="projeto-card">
-                        <div class="projeto-numero">
-                            04
-                        </div>
+                        <div class="projeto-numero">04</div>
                         <h3>Cadastro de jogos</h3>
                         <p>
                             Sistema desenvolvido em PHP e SQL para cadastrar e listar jogos eletrônicos, 
@@ -176,9 +152,7 @@
 
                      <!-- PROJETO 5 -->
                      <div class="projeto-card">
-                        <div class="projeto-numero">
-                            05
-                        </div>
+                        <div class="projeto-numero">05</div>
                         <h3>Sistema Help Desk para Gerenciar Chamados</h3>
                         <p>
                             Aplicação em PHP para gerenciar chamados de suporte técnico, permitindo cadastrar solicitações, 
@@ -197,9 +171,7 @@
 
                      <!-- PROJETO 6 -->
                      <div class="projeto-card">
-                        <div class="projeto-numero">
-                            06
-                        </div>
+                        <div class="projeto-numero">06</div>
                         <h3>Sistema para gerenciar Cadastro de máquinas</h3>
                         <p>
                             Sistema em PHP que permite cadastrar máquinas industriais, registrar a quantidade produzida e visualizar os dados dinamicamente, 
@@ -225,11 +197,11 @@
                 <div class="contato-container">
                     <div class="contato-item">
                         <h3>Email</h3>
-                        <p>felipepantarotti@gmail.com</p>
+                        <p>chagasnathaly@gmail.com</p>
                     </div>
                     <div class="contato-item">
                         <h3>GitHub</h3>
-                        <p>github.com/FelipePantarotti</p>
+                        <p>github.com/nalichagas</p>
                     </div>
                 </div>
             </section>
@@ -238,7 +210,7 @@
 
     <footer>
         <p>
-            Desenvolvido por <a href="felipeg315.devlook.xyz"> Felipe Pantarotti</a> • 2026
+            Desenvolvido por <a href="nathaly315.devlook.xyz"> Nathaly</a> • 2026
         </p>
     </footer>
 </body>

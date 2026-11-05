@@ -4,8 +4,8 @@ class Chamado {
 
     private string $arquivo;
 
-    public function __construct() {
-        $this->arquivo = __DIR__ . "/../../storage/data/chamados.json";
+    public function lerChamados() {
+        $this->arquivo = storage_path('app/chamados.json');
     }
 
     private function garantirDiretorio(): void {

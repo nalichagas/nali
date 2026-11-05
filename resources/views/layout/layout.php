@@ -59,7 +59,7 @@
     </main>
 
     <footer>
-        <p>Desenvolvido por <a href="felipeg315.devlook.xyz">Felipe Pantarotti</a>• 2026</p>
+        <p>Desenvolvido por <a href="felipeg315.devlook.xyz">Nathaly Chagas</a>• 2026</p>
 
     </footer>
 

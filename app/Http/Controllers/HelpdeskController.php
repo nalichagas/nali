@@ -1,8 +1,11 @@
 <?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Models\chamado;
  
-require_once __DIR__ . "/../../Models/Chamado.php";
- 
-class HelpdeskController
+class HelpdeskController extends Controller
 {
     // GET - Exibir a página do Helpdesk
     public function index()
@@ -14,7 +17,8 @@ class HelpdeskController
  
         $mensagem = "";
  
-        require __DIR__ . "/../../../resources/Views/projetos/helpdesk.php";
+        return view('projetos.helpdesk', compact('model', 'chamados', 'relatorio', 'mensagem'));
+        
     }
  
     // POST - Receber os formulários do Helpdesk
