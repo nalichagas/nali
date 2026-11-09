@@ -1,3 +1,4 @@
+
 /* CONFIGURAÇÕES GERAIS */
 
 * {
@@ -12,19 +13,19 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff8f8;
-    color: #49202b;
+    background-color: #FFF5F6;
+    color: #4A1020;
     line-height: 1.6;
 }
 
 /* MENU */
 
 header {
-    background: #640000;
+    background: #800020;
     position: sticky;
     top: 0;
     z-index: 100;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #FFE0E6;
     box-shadow: 0 3px 15px rgba(80, 10, 30, 0.08);
 }
 
@@ -38,7 +39,7 @@ header {
 }
 
 .logo {
-    color: #ffffff;
+    color: #FFFFFF;
     letter-spacing: 0.5px;
 }
 
@@ -49,14 +50,14 @@ header {
 }
 
 .menu a {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.25s ease;
 }
 
 .menu a:hover {
-    color: #ffffff;
+    color: #FFE0E6;
 }
 
 /* INÍCIO */
@@ -67,9 +68,9 @@ header {
     align-items: center;
     background: linear-gradient(
         135deg,
-        #640000,
-        #640000,
-        #640000
+        #800020,
+        #9B1238,
+        #800020
     );
     position: relative;
     overflow: hidden;
@@ -83,14 +84,14 @@ header {
 }
 
 .saudacao {
-    color: #ffe0e8;
+    color: #FFE0E6;
     font-size: 20px;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
 .inicio h1 {
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 60px;
     line-height: 1.15;
     margin-bottom: 12px;
@@ -99,14 +100,14 @@ header {
 
 .inicio h2 {
     font-size: 30px;
-    color: #ffe0e8;
+    color: #FFE0E6;
     margin-bottom: 20px;
     font-weight: 600;
 }
 
 .inicio-conteudo > p:not(.saudacao) {
     max-width: 600px;
-    color: #fff0f4;
+    color: #FFF0F3;
 }
 
 /* BOTÃO PRINCIPAL */
@@ -115,8 +116,8 @@ header {
     display: inline-block;
     margin-top: 30px;
     padding: 13px 27px;
-    background: #fff;
-    color: #b5123b;
+    background: #FFFFFF;
+    color: #A00035;
     text-decoration: none;
     border-radius: 12px;
     font-weight: bold;
@@ -127,7 +128,7 @@ header {
 .botao:hover {
     transform: translateY(-3px);
     box-shadow: 0 9px 23px rgba(80, 10, 30, 0.23);
-    background: #fff0f4;
+    background: #FFE8ED;
 }
 
 /* SEÇÕES */
@@ -142,7 +143,7 @@ header {
 
 #atividades {
     max-width: 100%;
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 #atividades > * {
@@ -155,12 +156,12 @@ header {
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
-    color: #640000;
+    color: #800020;
 }
 
 .subtitulo-secao {
     text-align: center;
-    color: #640000;
+    color: #9B1238;
     margin-bottom: 40px;
 }
 
@@ -173,8 +174,8 @@ header {
 }
 
 .projeto-card {
-    background: #640000;
-    border: 1px solid #ffffff;
+    background: #800020;
+    border: 1px solid #FFE0E6;
     padding: 30px;
     border-radius: 18px;
     box-shadow: 0 5px 18px rgba(80, 10, 30, 0.12);
@@ -184,25 +185,25 @@ header {
 
 .projeto-card:hover {
     transform: translateY(-6px);
-    border-color: #f3a2b7;
+    border-color: #E85D7A;
     box-shadow: 0 12px 26px rgba(80, 10, 30, 0.2);
 }
 
 .projeto-numero {
     font-size: 35px;
     font-weight: bold;
-    color: #ffffff;
+    color: #FFE0E6;
     margin-bottom: 15px;
 }
 
 .projeto-card h3 {
     font-size: 22px;
-    color: #ffffff;
+    color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .projeto-card p {
-    color: #ffffff;
+    color: #FFF0F3;
     margin-bottom: 20px;
 }
 
@@ -216,10 +217,10 @@ header {
 }
 
 .tecnologias span {
-    background: #fff0f4;
-    color: #b5123b;
+    background: #FFE8ED;
+    color: #800020;
     padding: 5px 11px;
-    border: 1px solid #f8d5df;
+    border: 1px solid #F8C8D3;
     border-radius: 8px;
     font-size: 13px;
     font-weight: bold;
@@ -231,7 +232,7 @@ header {
 .link-projeto:visited,
 .link-projetos,
 .link-projetos:visited {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.25s ease;
@@ -239,7 +240,7 @@ header {
 
 .link-projeto:hover,
 .link-projetos:hover {
-    color: #ed5275;
+    color: #FFB6C7;
     text-decoration: underline;
 }
 
@@ -247,9 +248,9 @@ header {
 
 .secao-destaque {
     max-width: 100%;
-    background: #640000;
-    border-top: 1px solid #640000;
-    border-bottom: 1px solid #640000;
+    background: #FFE8ED;
+    border-top: 1px solid #F8C8D3;
+    border-bottom: 1px solid #F8C8D3;
 }
 
 .secao-destaque > * {
@@ -259,11 +260,11 @@ header {
 }
 
 .secao-destaque .titulo-secao {
-    color: #ffffff;
+    color: #800020;
 }
 
 .secao-destaque .subtitulo-secao {
-    color: #ffffff;
+    color: #9B1238;
 }
 
 .sobre-conteudo {
@@ -278,14 +279,14 @@ header {
     height: 200px;
     min-width: 200px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ffffff, #ffffff);
-    color: #640000;
+    background: linear-gradient(135deg, #FFFFFF, #FFE8ED);
+    color: #800020;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 45px;
     font-weight: bold;
-    border: 6px solid #fff;
+    border: 6px solid #FFFFFF;
     box-shadow: 0 5px 22px rgba(194, 24, 69, 0.2);
 }
 
@@ -298,38 +299,38 @@ header {
 
 .sobre-texto h3 {
     font-size: 25px;
-    color: #790000;
+    color: #800020;
     margin-bottom: 15px;
 }
 
 .sobre-texto p {
-    color: #790000;
+    color: #4A1020;
     margin-bottom: 15px;
 }
 
 /* FORMULÁRIO DO ALUNO */
 
 .formulario-aluno {
-    background: #fff;
-    border: 1px solid #f5dce3;
+    background: #FFFFFF;
+    border: 1px solid #F5DCE3;
     box-shadow: 0 8px 25px rgba(125, 23, 50, 0.08);
     padding: 40px 30px;
     border-radius: 18px;
     width: 100%;
     max-width: 500px;
     margin: 40px auto;
-    color: #49202b;
+    color: #4A1020;
     text-align: center;
 }
 
 .formulario-aluno h2 {
     font-size: 28px;
     margin-bottom: 8px;
-    color: #ffffff;
+    color: #800020;
 }
 
 .formulario-aluno p {
-    color: #c21845;
+    color: #B5123B;
     font-size: 14px;
     margin-bottom: 25px;
 }
@@ -343,28 +344,28 @@ header {
     display: block;
     font-size: 14px;
     font-weight: bold;
-    color: #9b3451;
+    color: #9B1238;
     margin-bottom: 7px;
 }
 
 .formulario-grupo input {
     width: 100%;
     padding: 13px 15px;
-    background: #fff8fa;
-    border: 1px solid #efcbd6;
+    background: #FFF5F6;
+    border: 1px solid #EFCBD6;
     border-radius: 12px;
-    color: #49202b;
+    color: #4A1020;
     outline: none;
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .formulario-grupo input::placeholder {
-    color: #b99ba5;
+    color: #B99BA5;
 }
 
 .formulario-grupo input:focus {
-    border-color: #d9234e;
-    box-shadow: 0 0 0 3px rgba(217, 35, 78, 0.1);
+    border-color: #C21845;
+    box-shadow: 0 0 0 3px rgba(194, 24, 69, 0.1);
 }
 
 /* BOTÕES DO FORMULÁRIO */
@@ -380,8 +381,8 @@ header {
 }
 
 .botao-acao.primario {
-    background: linear-gradient(135deg, #e52b55, #b5123b);
-    color: #fff;
+    background: linear-gradient(135deg, #C21845, #800020);
+    color: #FFFFFF;
     border: none;
 }
 
@@ -390,34 +391,34 @@ header {
 }
 
 .botao-acao.secundario {
-    background: #fff0f4;
-    color: #a7193d;
-    border: 1px solid #efc1ce;
+    background: #FFE8ED;
+    color: #800020;
+    border: 1px solid #F1B9C8;
 }
 
 .botao-acao.secundario:hover {
-    background: #ffe0e9;
-    border-color: #e58aa2;
+    background: #FFD5DF;
+    border-color: #E58AA2;
 }
 
 /* RODAPÉ */
 
 footer {
-    background: #640000;
-    color: #ffffff;
+    background: #800020;
+    color: #FFFFFF;
     text-align: center;
     padding: 30px;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #FFE0E6;
 }
 
 footer a,
 footer a:visited {
-    color: #b5123b;
+    color: #FFB6C7;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #d71945;
+    color: #FFE0E6;
 }
 
 /* RESPONSIVIDADE */
