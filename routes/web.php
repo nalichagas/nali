@@ -12,6 +12,4 @@ Route::get('/helpdesk', [HelpdeskController::class, 'index'])->name('helpdesk');
 
 Route::get('/helpdesk', [HelpdeskController::class, 'salvar'])->name('helpdesk.salvar');
 
-Route:: 
-
 ?>
